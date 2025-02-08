@@ -23,42 +23,50 @@ This project is a simple and fun version of the classic Scrabble game, made usin
 
 
 
-3-Skip Turn Mechanism:
-•	Players may choose to skip their turn. 
-•	However, if a player skips their turn three consecutive times, they automatically lose the game, and the opposing player is declared the winner. This feature adds strategic depth to the gameplay.
+### 3-Skip Turn Mechanism:
+  •	Players may choose to skip their turn. 
+  
+  •	However, if a player skips their turn three consecutive times, they automatically lose the game, and the opposing player is declared the winner. This feature adds strategic depth to the gameplay.
 
-4-Surrender Option:
-•	A player can give up at any time by selecting the surrender option, making the opponent the winner.
+### 4-Surrender Option:
+  •	A player can give up at any time by selecting the surrender option, making the opponent the winner.
 
-5-Tile Bag System:
-•	The game includes a tile bag that shows how many tiles are left.
-•	 As players use tiles, the number decreases, helping them track the game’s progress.
+### 5-Tile Bag System:
+  •	The game includes a tile bag that shows how many tiles are left.
+  
+  •	 As players use tiles, the number decreases, helping them track the game’s progress.
 
-6-How the Game Ends:
-⦁         The game ends when all tiles are used, or all possible words are made on the board,   leaving no moves or tiles. The player with the higher score wins.
-⦁	If a player skips their turn three times in a row, they lose the game.
-⦁	A player can also win if their opponent surrenders.
+### 6-How the Game Ends:
+  ⦁ The game ends when all tiles are used, or all possible words are made on the board,   leaving no moves or tiles. The player with the higher score wins.
+  
+  ⦁	If a player skips their turn three times in a row, they lose the game.
 
-DSA Concepts Used in This Game:
+  ⦁	A player can also win if their opponent surrenders.
 
-●	Trie(Prefix Tree): 
-●	Used in: TrieDictionary class
-●	Purpose: Efficiently stores and looks up valid words by allowing fast prefix matching.
+## DSA Concepts Used in This Game:
 
-●	HashMap/Dictionary:            
-●	Used in: TileBag, Player classes
-●	Purpose: Stores and retrieves tiles in the bag and the tiles a player holds, enabling quick access.
+  ●	Trie(Prefix Tree): 
 
-●	Vector(Dynamic Array): 
-●	Used in: Player, TileBag, Game classes
-●	Purpose: Dynamically stores data like player tiles, remaining tiles in the bag, and the list of players in the game.
+  ●	Used in: TrieDictionary class
 
-●	Tree Traversal(for Valid Word Search): 
-●	Used in: TrieDictionary class
-●	Purpose: Traverses the Trie to check if a word is valid by exploring all possible prefixes.
+  ●	Purpose: Efficiently stores and looks up valid words by allowing fast prefix matching.
 
-●	Recursion: 
-●	Used in: Board class
-●	Purpose: Used in backtracking to recursively check and validate word placements on the board.
+  ●	HashMap/Dictionary:            
+  
+  ●	Used in: TileBag, Player classes
+  
+  ●	Purpose: Stores and retrieves tiles in the bag and the tiles a player holds, enabling quick access.
+
+  ●	Vector(Dynamic Array): 
+  ●	Used in: Player, TileBag, Game classes
+  ●	Purpose: Dynamically stores data like player tiles, remaining tiles in the bag, and the list of players in the game.
+
+  ●	Tree Traversal(for Valid Word Search): 
+  ●	Used in: TrieDictionary class
+  ●	Purpose: Traverses the Trie to check if a word is valid by exploring all possible prefixes.
+
+  ●	Recursion: 
+  ●	Used in: Board class
+  ●	Purpose: Used in backtracking to recursively check and validate word placements on the board.
 
 
