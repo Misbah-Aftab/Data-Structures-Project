@@ -45,28 +45,14 @@ This project is a simple and fun version of the classic Scrabble game, made usin
 
 ## DSA Concepts Used in This Game:
 
-  ●	Trie(Prefix Tree): 
+  1. Trie(Prefix Tree): Used in: TrieDictionary class Purpose: Efficiently stores and looks up valid words by allowing fast prefix matching.
 
-  ●	Used in: TrieDictionary class
+  2. HashMap/Dictionary: Used in: TileBag, Player classes Purpose: Stores and retrieves tiles in the bag and the tiles a player holds, enabling quick access.
 
-  ●	Purpose: Efficiently stores and looks up valid words by allowing fast prefix matching.
+  3. Vector(Dynamic Array): Used in: Player, TileBag, Game classes  Purpose: Dynamically stores data like player tiles, remaining tiles in the bag, and the list of players in the game.
 
-  ●	HashMap/Dictionary:            
-  
-  ●	Used in: TileBag, Player classes
-  
-  ●	Purpose: Stores and retrieves tiles in the bag and the tiles a player holds, enabling quick access.
+  4. Tree Traversal(for Valid Word Search): Used in: TrieDictionary class  Purpose: Traverses the Trie to check if a word is valid by exploring all possible prefixes.
 
-  ●	Vector(Dynamic Array): 
-  ●	Used in: Player, TileBag, Game classes
-  ●	Purpose: Dynamically stores data like player tiles, remaining tiles in the bag, and the list of players in the game.
-
-  ●	Tree Traversal(for Valid Word Search): 
-  ●	Used in: TrieDictionary class
-  ●	Purpose: Traverses the Trie to check if a word is valid by exploring all possible prefixes.
-
-  ●	Recursion: 
-  ●	Used in: Board class
-  ●	Purpose: Used in backtracking to recursively check and validate word placements on the board.
+  5. Recursion: Used in: Board class Purpose: Used in backtracking to recursively check and validate word placements on the board.
 
 
