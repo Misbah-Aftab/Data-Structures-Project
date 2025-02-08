@@ -39,7 +39,7 @@ This project is a simple and fun version of the classic Scrabble game, made usin
 ### 6-How the Game Ends:
    ⦁ The game ends when all tiles are used, or all possible words are made on the board,   leaving no moves or tiles. The player with the higher score wins.
   
-   ⦁	If a player skips their turn three times in a row, they lose the game.
+   ⦁ If a player skips their turn three times in a row, they lose the game.
 
    ⦁	A player can also win if their opponent surrenders.
 
