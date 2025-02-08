@@ -9,7 +9,7 @@ This project is a simple and fun version of the classic Scrabble game, made usin
 
 
 ### 2-Turn Based Gameplay:
-  •	Players take turns to make words. 
+      •	Players take turns to make words. 
   
   •	New words must connect to existing words on the board. 
   
