@@ -4,16 +4,22 @@ This project is a simple and fun version of the classic Scrabble game, made usin
 ## Gameplay:
 ### 1-Main Menu Interface:
   •	Upon loading the game, a user-friendly menu is displayed with options to either "Play Game" or "Quit Game." Choosing "Play Game" starts the match. Each player draws seven tiles from the bag.
+  
   •	The first player places a word on the center square of the board, covering it completely. This word must be at least two letters long.
 
 
-2-Turn Based Gameplay:
-•	Players take turns to make words. 
-•	New words must connect to existing words on the board. 
-•	Words can be formed horizontally or vertically, but not diagonally. 
-•	Players use tiles from their rack to form words. 
-•	Each correct word increases the player’s score, while an invalid word triggers a message indicating that the word is not valid.
-•	 If a player can't make a word, they can Pass their turn.
+### 2-Turn Based Gameplay:
+  •	Players take turns to make words. 
+  
+  •	New words must connect to existing words on the board. 
+  
+  •	Words can be formed horizontally or vertically, but not diagonally. 
+  
+  •	Players use tiles from their rack to form words. 
+  
+  •	Each correct word increases the player’s score, while an invalid word triggers a message indicating that the word is not valid.
+  
+  •	 If a player can't make a word, they can Pass their turn.
 
 
 
